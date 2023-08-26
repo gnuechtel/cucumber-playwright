@@ -23,4 +23,5 @@ Then('We see {string} mode', async function (this: ICustomWorld, mode: string) {
   const page = this.page!;
   const theme = await page.locator('html').getAttribute('data-theme');
   expect(theme).toEqual(mode);
+  await page.pause();
 });
