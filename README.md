@@ -109,3 +109,6 @@ To use Allure reporting, you can run with env param: `USE_ALLURE=1`, and then us
 ## To view allure report
 - run the command `npm run allure`.
 
+## Just an example text
+
+Nothing special here
